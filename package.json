@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/edsfocci/phaser3-project_template/issues"
   },
-  "homepage": "https://github.com/edsfocci/phaser3-project_template#readme"
+  "homepage": "https://github.com/edsfocci/phaser3-project_template#readme",
+  "dependencies": {
+    "phaser": "~3.16.2"
+  }
 }
