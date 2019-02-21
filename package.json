@@ -1,0 +1,19 @@
+{
+  "name": "phaser3-project_template",
+  "version": "0.0.0",
+  "description": "A Phaser 3 Project Template, with webpack 4",
+  "main": "?",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsfocci/phaser3-project_template.git"
+  },
+  "author": "Ed Solis <edsfocci@gmail.com> (http://www.edsfoci.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edsfocci/phaser3-project_template/issues"
+  },
+  "homepage": "https://github.com/edsfocci/phaser3-project_template#readme"
+}
