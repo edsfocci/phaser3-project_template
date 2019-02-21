@@ -18,5 +18,8 @@
   "homepage": "https://github.com/edsfocci/phaser3-project_template#readme",
   "dependencies": {
     "phaser": "~3.16.2"
+  },
+  "engines": {
+    "node": "^8.15.0"
   }
 }
