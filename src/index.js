@@ -1,3 +1,3 @@
 import 'phaser';
 
-var game = new Phaser.Game();
+const game = new Phaser.Game();
