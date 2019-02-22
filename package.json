@@ -5,8 +5,11 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "start": "node prod-server.js"
   },
+  "heroku-run-build-script": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/edsfocci/phaser3-project_template.git"
@@ -15,7 +18,9 @@
     "phaser3",
     "phaser",
     "webpack4",
-    "webpack"
+    "webpack",
+    "heroku",
+    "express"
   ],
   "author": "Ed Solis <edsfocci@gmail.com> (http://www.edsfoci.com/)",
   "license": "MIT",
@@ -24,6 +29,7 @@
   },
   "homepage": "https://github.com/edsfocci/phaser3-project_template#readme",
   "dependencies": {
+    "express": "~4.16.4",
     "phaser": "~3.16.2"
   },
   "engines": {
